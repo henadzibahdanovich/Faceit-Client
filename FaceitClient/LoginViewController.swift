@@ -12,9 +12,11 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var textField: UITextField!
     
     @IBAction func searchTapped(_ sender: Any) {
-        print("Username is \(textField.text ?? "")")
+        delegate?.setup(withFlow: .home)
     }
     
+    var delegate: RootNavigationViewControllerDelegate?
+        
     override func viewDidLoad() {
         super.viewDidLoad()
         

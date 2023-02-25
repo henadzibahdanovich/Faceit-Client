@@ -11,7 +11,6 @@
 		8EA65E3B23E4D866F309FD79 /* Pods_FaceitClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2657F6D00FB20C6EEFEE1545 /* Pods_FaceitClient.framework */; };
 		A555BD760BDFCEE09F38BDB8 /* Pods_FaceitClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB10FF03D8482FAEE1103466 /* Pods_FaceitClientTests.framework */; };
 		B3865D3A29A7D98E0067E479 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D3929A7D98E0067E479 /* AppDelegate.swift */; };
-		B3865D3C29A7D98E0067E479 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D3B29A7D98E0067E479 /* SceneDelegate.swift */; };
 		B3865D3E29A7D98E0067E479 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D3D29A7D98E0067E479 /* LoginViewController.swift */; };
 		B3865D4129A7D98E0067E479 /* LoginViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3865D3F29A7D98E0067E479 /* LoginViewController.storyboard */; };
 		B3865D4329A7D9900067E479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3865D4229A7D9900067E479 /* Assets.xcassets */; };
@@ -19,6 +18,12 @@
 		B3865D5129A7D9900067E479 /* FaceitClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D5029A7D9900067E479 /* FaceitClientTests.swift */; };
 		B3865D5B29A7D9900067E479 /* FaceitClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D5A29A7D9900067E479 /* FaceitClientUITests.swift */; };
 		B3865D5D29A7D9900067E479 /* FaceitClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D5C29A7D9900067E479 /* FaceitClientUITestsLaunchTests.swift */; };
+		B3865D6C29A989FE0067E479 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D6B29A989FE0067E479 /* RootViewController.swift */; };
+		B3865D6E29A98A180067E479 /* RootNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D6D29A98A180067E479 /* RootNavigationViewController.swift */; };
+		B3865D7329A9924E0067E479 /* PlayerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D7229A9924E0067E479 /* PlayerInfoViewController.swift */; };
+		B3865D7529A992530067E479 /* PlayerInfoViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3865D7429A992530067E479 /* PlayerInfoViewController.storyboard */; };
+		B3865D7729A992840067E479 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D7629A992840067E479 /* HistoryViewController.swift */; };
+		B3865D7929A995820067E479 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3865D7829A995820067E479 /* Secret.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +50,6 @@
 		B02DBB038FBC5D67899558AA /* Pods-FaceitClient-FaceitClientUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceitClient-FaceitClientUITests.release.xcconfig"; path = "Target Support Files/Pods-FaceitClient-FaceitClientUITests/Pods-FaceitClient-FaceitClientUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B3865D3629A7D98E0067E479 /* FaceitClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceitClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3865D3929A7D98E0067E479 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3865D3B29A7D98E0067E479 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B3865D3D29A7D98E0067E479 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B3865D4029A7D98E0067E479 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LoginViewController.storyboard; sourceTree = "<group>"; };
 		B3865D4229A7D9900067E479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +60,12 @@
 		B3865D5629A7D9900067E479 /* FaceitClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceitClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3865D5A29A7D9900067E479 /* FaceitClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceitClientUITests.swift; sourceTree = "<group>"; };
 		B3865D5C29A7D9900067E479 /* FaceitClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceitClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B3865D6B29A989FE0067E479 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		B3865D6D29A98A180067E479 /* RootNavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootNavigationViewController.swift; sourceTree = "<group>"; };
+		B3865D7229A9924E0067E479 /* PlayerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerInfoViewController.swift; sourceTree = "<group>"; };
+		B3865D7429A992530067E479 /* PlayerInfoViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PlayerInfoViewController.storyboard; sourceTree = "<group>"; };
+		B3865D7629A992840067E479 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B3865D7829A995820067E479 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		C5376095382818FBAAF524AA /* Pods-FaceitClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceitClient.debug.xcconfig"; path = "Target Support Files/Pods-FaceitClient/Pods-FaceitClient.debug.xcconfig"; sourceTree = "<group>"; };
 		DB10FF03D8482FAEE1103466 /* Pods_FaceitClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FaceitClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F411BA5B5EECEABE7F169507 /* Pods-FaceitClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FaceitClient.release.xcconfig"; path = "Target Support Files/Pods-FaceitClient/Pods-FaceitClient.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,12 +127,17 @@
 			isa = PBXGroup;
 			children = (
 				B3865D3929A7D98E0067E479 /* AppDelegate.swift */,
-				B3865D3B29A7D98E0067E479 /* SceneDelegate.swift */,
+				B3865D6D29A98A180067E479 /* RootNavigationViewController.swift */,
+				B3865D6B29A989FE0067E479 /* RootViewController.swift */,
+				B3865D7229A9924E0067E479 /* PlayerInfoViewController.swift */,
+				B3865D7429A992530067E479 /* PlayerInfoViewController.storyboard */,
+				B3865D7629A992840067E479 /* HistoryViewController.swift */,
 				B3865D3D29A7D98E0067E479 /* LoginViewController.swift */,
 				B3865D3F29A7D98E0067E479 /* LoginViewController.storyboard */,
 				B3865D4229A7D9900067E479 /* Assets.xcassets */,
 				B3865D4429A7D9900067E479 /* LaunchScreen.storyboard */,
 				B3865D4729A7D9900067E479 /* Info.plist */,
+				B3865D7829A995820067E479 /* Secret.swift */,
 			);
 			path = FaceitClient;
 			sourceTree = "<group>";
@@ -178,6 +193,7 @@
 				B3865D3229A7D98E0067E479 /* Sources */,
 				B3865D3329A7D98E0067E479 /* Frameworks */,
 				B3865D3429A7D98E0067E479 /* Resources */,
+				A3B9D2EE327B27AE19A03BA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -215,6 +231,7 @@
 				B3865D5229A7D9900067E479 /* Sources */,
 				B3865D5329A7D9900067E479 /* Frameworks */,
 				B3865D5429A7D9900067E479 /* Resources */,
+				5E470A9EE410FD5769A9EB7D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -277,6 +294,7 @@
 				B3865D4629A7D9900067E479 /* LaunchScreen.storyboard in Resources */,
 				B3865D4329A7D9900067E479 /* Assets.xcassets in Resources */,
 				B3865D4129A7D98E0067E479 /* LoginViewController.storyboard in Resources */,
+				B3865D7529A992530067E479 /* PlayerInfoViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +359,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5E470A9EE410FD5769A9EB7D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceitClient-FaceitClientUITests/Pods-FaceitClient-FaceitClientUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceitClient-FaceitClientUITests/Pods-FaceitClient-FaceitClientUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaceitClient-FaceitClientUITests/Pods-FaceitClient-FaceitClientUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		74094F3120F69D3D8A20AF11 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -363,6 +398,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A3B9D2EE327B27AE19A03BA7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceitClient/Pods-FaceitClient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FaceitClient/Pods-FaceitClient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FaceitClient/Pods-FaceitClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -371,8 +423,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3865D3E29A7D98E0067E479 /* LoginViewController.swift in Sources */,
+				B3865D7929A995820067E479 /* Secret.swift in Sources */,
 				B3865D3A29A7D98E0067E479 /* AppDelegate.swift in Sources */,
-				B3865D3C29A7D98E0067E479 /* SceneDelegate.swift in Sources */,
+				B3865D6C29A989FE0067E479 /* RootViewController.swift in Sources */,
+				B3865D7729A992840067E479 /* HistoryViewController.swift in Sources */,
+				B3865D6E29A98A180067E479 /* RootNavigationViewController.swift in Sources */,
+				B3865D7329A9924E0067E479 /* PlayerInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

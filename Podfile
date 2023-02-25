@@ -6,6 +6,7 @@ target 'FaceitClient' do
   use_frameworks!
 
   # Pods for FaceitClient
+  pod 'Alamofire'
   
   target 'FaceitClientTests' do
     inherit! :search_paths
